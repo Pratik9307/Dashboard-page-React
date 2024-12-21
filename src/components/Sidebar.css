@@ -1,0 +1,211 @@
+/* Sidebar container */
+.sidebar {
+  width: 230px;
+  height: 789px;
+  padding: 30px 12px;
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
+  background: #FFFFFF;
+}
+
+/* Sidebar-child container */
+.Sidebar-child {
+  width: 224px;
+  height: 400px;
+  gap: 40px;
+ 
+}
+
+/* Logo styling */
+.sidebar-logo {
+  width: 98px;
+  height: 42px;
+  margin-bottom: 30px;
+  gap: 0px;
+  
+}
+
+/* Navigation list styling */
+.nav-list {
+  width: 224px;
+  height: 328px;
+  gap: 8px;
+
+}
+
+/* Navigation item styling */
+.nav-item {
+  width: 224px;
+  height: 25px;
+  padding: 12px 89px 12px 12px;
+  gap: 10px;
+  border-radius: 6px 0px 0px 0px;
+  opacity: 0px;
+}
+
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  margin-right: 10px;
+  gap: 0;
+  opacity: 1; /* Adjust this to 0 if you want to make it initially hidden */
+}
+
+/* Styling for active elements */
+.active1 {
+  width: 123px;
+  height: 24px;
+  gap: 12px;
+  opacity: 1; /* Adjust this to match your requirements */
+}
+
+.active2 {
+  width: 108px;
+  height: 24px;
+  gap: 12px;
+  opacity: 1;
+}
+
+.active3 {
+  width: 99px;
+  height: 24px;
+  gap: 12px;
+  opacity: 1;
+}
+
+.active4 {
+  width: 72px;
+  height: 24px;
+  gap: 12px;
+  opacity: 1;
+}
+
+.active5 {
+  width: 97px;
+  height: 24px;
+  gap: 12px;
+  opacity: 1;
+}
+
+.active6 {
+  width: 100px;
+  height: 24px;
+  gap: 12px;
+  opacity: 1;
+}
+
+/* Example icon and content spacing */
+
+/* Specific styles for content classes */
+.content1 {
+  width: 87px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+
+.content2 {
+  width: 72px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  
+  
+}
+
+.content3 {
+  width: 63px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+
+  
+}
+
+.content4 {
+  width: 36px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+
+  
+}
+
+.content5 {
+  width: 61px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+ 
+  
+}
+
+.content1,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color:  rgba(111, 118, 126, 1);
+  ;
+}
+
+.content6 {
+  width: 64px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+ 
+  
+}
+
+
+
+

@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.student-table {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.student-table h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.student-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.student-table th,
+.student-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.student-table th {
+  background-color: #1abc9c;
+  color: white;
+  font-size: 16px;
+}
+
+.student-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.student-table tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.student-table td {
+  font-size: 14px;
+  color: #555;
+}
+
+.student-table .remove-btn {
+  padding: 8px 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.student-table .remove-btn:hover {
+  background-color: #c0392b;
+}
+
+.student-table .remove-btn:active {
+  background-color: #a93226;
+}
+
+@media (max-width: 768px) {
+  .student-table h3 {
+    font-size: 20px;
+  }
+
+  .student-table th,
+  .student-table td {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .student-table .remove-btn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}

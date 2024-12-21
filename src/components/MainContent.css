@@ -1,0 +1,537 @@
+.main-content-wrapper {
+  width: 1152px;
+  height: 750px;
+  left: 283px;
+  border-radius: 12px 12px 12px 12  px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%); /* Optional background for clarity */
+  position: relative;
+  top: -765px;
+}
+.so{
+  height: 80px;
+  padding: 10px;
+}
+
+/* Styling for the header section */
+.header-section {
+  width: 197px; /* Hug width specified */
+  height: 30px; /* Hug height specified */
+  top: 16px;
+  left: 900px;
+  padding: 7px 15px;
+  gap: 10px;
+  border-radius: 6px 0px 0px 0px;
+  opacity: 1; /* Set opacity to 1 if you want it visible initially */
+  background: rgba(233, 237, 241, 1);
+  display: flex; /* Ensures elements are aligned horizontally */
+  align-items: center; /* Centers content vertically */
+  justify-content: space-between; /* Spreads content evenly */
+  position: relative;
+}
+
+/* Styling for the image wrapper */
+.image-wrapper {
+  width: 20px;
+  height: 20px;
+  padding: 2.5px 1.88px;
+  gap: 0px;
+  opacity: 1; /* Set opacity to 1 to make it visible */
+  background: rgba(233, 237, 241, 0); /* Transparent background for now */
+  display: flex; /* Centers the image inside */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the header image */
+.header-image {
+  width: 15.63px;
+  height: 15.63px;
+  top: 2.5px;
+  left: 2.5px;
+  gap: 0px;
+  opacity: 1; /* Make it visible */
+
+  border-radius: 50%; /* Optional: Makes it circular */
+  object-fit: cover; /* Ensures proper aspect ratio */
+}
+
+/* Styling for the add-btn */
+.add-btn {
+  width: 137px;
+  height: 22px;
+  gap: 0px;
+  opacity: 1; /* Set opacity to 1 to make it visible */
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(63, 82, 110, 1); /* Text color */
+  background: transparent; /* Transparent for the button */
+  display: flex; /* Aligns content if needed */
+  align-items: center;
+}
+
+
+/* Styling for the Box */
+.Box {
+  width: 24px;
+  height: 24px;
+  padding: 8.22px 5.64px 8px 5.64px;
+  gap: 0px;
+  opacity: 1; /* Set to 1 for visibility */
+  display: flex; /* Center the contents */
+  justify-content: center;
+  align-items: center;
+  background: transparent; /* Transparent background */
+}
+
+/* Styling for the header-image2 */
+.header-image2 {
+  width: 12.73px;
+  height: 7.78px;
+  top: 8.22px;
+  left: 5.64px;
+  gap: 0px;
+  opacity: 1; /* Set to 1 for visibility */
+  object-fit: cover; /* Ensure proper scaling without distortion */
+  border-radius: 2px; /* Optional: Slight rounding for the image */
+}
+
+.header-container-small {
+  width: 117px; /* Hug width */
+  height: 30px; /* Hug height */
+  position: relative; /* To use top and left */
+  top: -32px;
+  left: 174px;
+  padding: 7px 15px;
+  gap: 10px;
+  border-radius: 6px 0px 0px 0px;
+  background: rgba(233, 237, 241, 1);
+  display: flex; /* Ensures elements are aligned horizontally */
+  align-items: center; /* Centers content vertically */
+}
+
+.add-btn-small {
+  width: 70px;
+  height: 22px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color: rgba(63, 82, 110, 1); /* Font color */
+}
+
+.icon-box {
+  width: 24px;
+  height: 24px;
+}
+
+.small-icon {
+  width: 12.73px;
+  height: 7.78px;
+  position: relative; /* To use top and left */
+  top: 3.22px;
+  left: 5.64px;
+  color: rgba(0, 0, 0, 1); /* Black background */
+}
+
+.header-container-large {
+  width: 129px; /* Hug width */
+  height: 30px; /* Hug height */
+  position: relative; /* To use top and left */
+  top: -75px;
+  left: 4px;
+  padding: 7px 15px;
+  gap: 10px;
+  border-radius: 6px 0px 0px 0px;
+  background: rgba(233, 237, 241, 1);
+  display: flex; /* Ensures elements are aligned horizontally */
+  align-items: center; /* Centers content vertically */
+}
+
+.add-btn-large {
+  width: 85px;
+  height: 22px;
+  gap: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(63, 82, 110, 1); /* Font color */
+}
+
+.icon-wrapper {
+  width: 24px;
+  height: 24px;
+  padding: 8.22px 5.64px;
+  gap: 0;
+}
+
+.large-icon {
+  width: 12.73px;
+  height: 7.78px;
+  position: relative; /* To use top and left */
+  top: 3.22px;
+  left: 5.64px;
+  color: rgba(0, 0, 0, 1); /* Font color */
+}
+
+
+/* Table Section */
+.table-section {
+  width: 1121px;
+  height: auto;
+  margin: 92px 16px 0;
+  background-color: #fff; /* Optional background for clarity */
+  overflow: hidden;
+  position: relative;
+  top: -75px;
+}
+
+/* Table Styling */
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Header Row */
+.table-header th {
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 16.34px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.student-name {
+  width: 97.04px;
+  height: 16px;
+
+  left: 17.12px;
+  opacity: 1; /* Make visible */
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.34px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+
+.cohort {
+  width: 46.85px;
+  height: 16px;
+  
+  left: -5.05px;
+  opacity: 1; /* Make visible */
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.34px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+
+.courses {
+  width: 53.54px;
+  height: 16px;
+ 
+  left: -50.13px;
+  opacity: 1; /* Make visible */
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.34px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+
+.date-joined {
+  width: 78.08px;
+  height: 16px;
+  left: 70.49px;
+  gap: 0px;
+  opacity: 1; /* Make visible */
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.34px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+
+.last-login {
+  width: 65.81px;
+  height: 16px;
+  left:1.83px;
+  gap: 0px;
+  opacity: 1; /* Make visible */
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.34px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+
+.status {
+  width: 43.5px;
+  height: 16px;
+  
+  left: 20.11px;
+  gap: 0px;
+  opacity: 1; /* Make visible */
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.34px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+
+.table-row {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eaeaea; /* Light grey border between rows */
+  border-top: 1px solid #eaeaea;
+  background-color: #fff; /* White background for the rows */
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+.table-row .status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+
+}
+
+.table-row .status-dot.green {
+  background-color: rgb(98, 228, 98);
+}
+
+.table-row .status-dot.red {
+  background-color: red;
+}
+
+
+
+
+
+
+
+.students-table1 {
+  width: 100%;
+ 
+
+}
+
+.students-table1{
+ 
+}
+.profile-pic {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 1;
+  color:rgba(246, 248, 250, 1);
+}
+
+
+
+.A {
+  padding: 8px; /* Adds spacing inside the cell */
+}
+
+.row-content {
+  display: flex; /* Aligns items in a row */
+  align-items: center; /* Vertically centers content */
+  gap: 8px; /* Spacing between image and text */
+}
+
+.profile-pic {
+  width: 24px; /* Image width */
+  height: 24px; /* Image height */
+  border-radius: 4px; /* Optional: makes image corners rounded */
+}
+
+.text-content {
+  font-family: 'Noto Sans', sans-serif; /* Adjust as needed */
+  font-size: 12px; /* Adjust text size */
+  color: #333; /* Text color */
+}
+
+
+
+
+/* Styling for the table cell */
+.I {
+
+  padding: 8px; /* Spacing inside the cell */
+}
+
+/* Flexbox container for image and text */
+.row-content {
+  display: flex; /* Aligns items in a row */
+  align-items: center; /* Vertically centers the content */
+
+}
+
+/* Styling for the image */
+.profile-pic {
+  width: 24px; /* Width of the image */
+  height: 24px; /* Height of the image */
+  border-radius: 4px; /* Adds rounded corners to the image */
+  object-fit: cover; /* Ensures the image fits within its dimensions */
+}
+
+/* Styling for the text */
+.text-content {
+  font-family: 'Noto Sans', sans-serif; /* Font for the text */
+  font-size: 12px; /* Text size */
+  font-weight: 400; /* Regular font weight */
+  white-space: nowrap; /* Prevents text wrapping */
+}
+
+
+/* Styling for the academic year column */
+
+/* Styling for the text content inside the row content */
+.text-content {
+  font-weight: 400; /* Regular font weight */
+  font-size: 13px; /* Slightly smaller than standard text */
+  color: #1a202c; /* Darker text for readability */
+}
+
+
+/* Styling for the status dot */
+.status-dot {
+  display: inline-block;
+  width: 14.4px;
+  height: 14px;
+  border-radius: 50%; /* Make it circular */
+  margin-right: 8px; /* Add space between dot and text */
+}
+
+/* Online and offline colors */
+.status-dot.green {
+  background-color: #48bb78; /* Green for online */
+}
+
+.status-dot.red {
+  background-color: #e53e3e; /* Red for offline */
+}
+
+/* Styling for student name column */
+.P {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Styling for the academic year column */
+/* Styling for the academic year column */
+.R {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Styling for the text content */
+.text-content {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Styling for the 'S' column */
+.S {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Styling for the 'H' column */
+.H {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+
+.table-header th {
+  padding: 10px;
+  text-align: left;
+}
+
+.student-name {
+  padding-right: 10px; /* Shift Student Name 10px to the right */
+  
+  
+}
+
+.cohort {
+  padding-right: 30px; /* Shift Cohort 30px to the right */
+}
+
+.date-joined {
+  padding-right: 20px; /* Shift Date Joined 20px to the right */
+}
+
+.last-login {
+  padding-right: 20px; /* Shift Last Login 20px to the right */
+}
+
+.status {
+  padding-right: 20px; /* Shift Status 20px to the right */
+}
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+ 
+}
+
+.I{
+  margin-left: -100px;
+}

@@ -1,0 +1,8 @@
+/* Dashboard Styling */
+.dashboard {
+    background-color: #f0f0f0; /* Light gray background */
+    height: 100vh; /* Ensure the background covers the entire screen */
+    display: flex; /* Flexbox layout if you plan to use flex for internal components */
+    flex-direction: column; /* Adjust according to how you want to arrange child components */
+  }
+  
